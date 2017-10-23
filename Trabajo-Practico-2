@@ -1,1 +1,190 @@
+<!--Continuar con la maqueta de nuestro portafolio comenzada en el TP1. En esta oportunidad agregaremos a nuestro portafolio, las listas, tablas con contenido, formularios de contacto y todos los enlaces necesarios que definimos en nuetro markup para nuestro portafolio.
+Adicional, utilizaremos imagenes tipo, para poder ir ubicando espacialmente las imagenes que luego incorporaremos en nuestra versión final del portafolio.-->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title> Mi Protafolio </title>
+        
+    </head>
+    
+    <body>
+        <hi> Titulo de la cuestion </hi>
+        <section>
+        <article>
+            <a href="#">Entrar</a>
+            <a href="../carpeta-externa/formulario-trabajo.practico-2.html" target="_blank" >Registrarse</a>
+            </article>
+        
+        </section>
+        <section>
+            <nav> Navegador ( busqueda dentro de la pag) </nav>
+        </section>
+        <aside> <h2>Seccion 1</h2>
+            <article> 
+                <ul>
+                    <li>Elementos</li>
+                    <li>de</li>
+                    <li>una</li>
+                    <li> lista particular de la seccion1</li>
+                </ul>
+            </article>
+            </aside>
+        <section> <h2>Seccion 2</h2>
+            <article> 
+                <ol>
+                    <li>Elementos</li>
+                    <li>de</li>
+                    <li>una</li>
+                    <li> lista particular de la seccion2</li>
+                </ol>
+            </article>
+                </section>
+        <section>
+            <h2>Seccion 3</h2>
+            <article> 
+                <ul>
+                    <li>Elementos</li>
+                    <li>de</li>
+                    <li>una</li>
+                    <li> lista particular de la seccion3</li>
+                </ul>
+            </article>
+            </section>
+        <aside>
+            <h2>Seccion 4</h2>
+            <article> 
+                <ul>
+                    <li>Elementos</li>
+                    <li>de</li>
+                    <li>una</li>
+                    <li> lista particular de la seccion4</li>
+                </ul>
+            
+            </article>
+            </aside>
+    
+    <footer>
+        <br/>
+            <aside>
+                <div> Anterior</div>
+            </aside>
+            <article>
+            <a href="carpeta-externa/Mi-Primera-Pag-Web.html" target="_blank"> Futuros Links </a>
+                
+            </article>
+            <aside>
+            <div> Siguiente </div>
+            </aside>
+    </footer>
+            
+    </body>
+   
+
+</html>
+
+
+
+
+
+Junto contenido de la pag del formulario
+
+<!-- hacer un formulario para la pag del portafolio utilizando imagenes ilustrativas y de usuarios que ya estan registrados y realizar todo el formato de formulario-->
+<!DOCTYPEhtml>
+<html>
+
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="application-name" content="formulatio interno" />
+    
+    </head>
+    
+    <body>
+        
+        <hi>Registrece</hi>
+        <h2> Complete los campos de ser posible</h2>
+        
+        <form action="" method="post">
+        <!-- informacion de datos personales del usuario particulares-->
+            <fieldset>
+                <legend>Datos Personales</legend><br/>
+                <label for="nombre" >Nombre</label>
+                <input id="nombre" name="nombre" type="text" placeholder="ingrese su nombre" /><br/>
+                <label for="apellido">Apellido</label>
+                <input id="apellido" name="apellido" type="text" placeholder="ingrese su apellido "/><br/>
+                <label for="anios" >Años de edad</label>
+                <input id=" anios" name="anios" type="number" placeholder="mayor de 21" /><br/>
+                <label for="fecha">Fecah de nacimiento</label>
+                <input id="fecha" name="fecha" type="date" /><br/>
+                <label  for="nacion">Nacionalidad</label>
+                <input id="nacion" name="nacion" type="radio"/>Argentino
+                <input id="nacion" name="nacion" type="radio"/>Otros<br/>
+                <label for="laboral">Situacion laboral</label>
+                <select  >
+                    <option >Con trabajo</option>
+                    <option id="laboral" name="laboral">Sin trabajo</option>
+                    <option>Busco trabajo</option>
+                    <option>No busco trabajo</option>
+                </select><br/>
+                
+                        
+            </fieldset>
+            
+            <!-- Formulario de usuario-->
+            <fieldset>
+                <legend>Datos de usuario </legend>
+                
+                <label for="nomusu">Nombre de usuario</label>
+                <input name="nomusu" id="nomusu" type=text/><br/>
+                <label for="contra">Contraseña</label>
+                <input id="contra" name="contra" type="password" /><br/>
+                <label for="email" >Email</label>
+                <input name="email" id="email" type="email" />
+            
+            </fieldset>
+            
+            <fielset>
+            <legend>Datos varios</legend>
+                <label for="conoce">Como conocio la pag</label><br/>
+                <input type="checkbox" name="conoce" id="conoce"/>Por un amigo<br/>
+                <input type="checkbox" name="conoce" id="conoce"/>Por publicidad en revistas<br/>
+                <input type="checkbox" name="conoce" id="conoce"/>Por publicidad en television<br/>
+                <input type="checkbox" name="conoce" id="conoce"/>Por anuncios en youtube<br/>
+                
+                
+            
+            </fielset>
+            <input type="submit" value="Enviar" /><br/>
+                <input type="reset" value="Reiniciar"/>
+            
+            <aside>
+            <img alt="" height="" width="200" src="../imagenes-contenido/bigstock-organization-24193817.jpg"/>
+            <img alt="" height=""  width="200" src="../imagenes-contenido/community-156591_960_720.png"/>
+            <img alt="" height="" width="200" src="../imagenes-contenido/silhouettes-81830_960_720.jpg"/>
+            </aside>
+            
+        </form>
+        
+    </body>
+    
+    <footer>
+        <table>
+        <thead>
+            <tr>
+            <th><a href="#">Preguntas frecuentes</a></th>
+            <th><a href="#">Ayuda</a></th>
+            <th> <textarea>Sugerencias para futuros formularios</textarea></th>   
+            <th><a href="#">Contenido legal</a></th>
+            </tr>
+            </thead>
+        </table>
+
+    </footer>
+
+</html>
+
+
+
 
